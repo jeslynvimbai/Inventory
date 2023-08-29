@@ -176,12 +176,12 @@ This menu should be inside the while loop. Be creative!
 
 # Define the menu options
 MENU_OPTIONS = [
-    ("View all shoes", view_all),
-    ("Search for a shoe", search_shoe),
-    ("Add a new shoe", capture_shoes),
-    ("Re-stock a shoe", re_stock),
-    ("Calculate value per item", value_per_item),
-    ("Find the shoe with the highest quantity", highest_qty),
+    ("View all", view_all),
+    ("Search shoe", search_shoe),
+    ("Capture shoe", capture_shoes),
+    ("Re-stock shoe", re_stock),
+    ("Value per item", value_per_item),
+    ("Highest quantity shoe", highest_qty),
     ("Exit", None)
 ]
 
